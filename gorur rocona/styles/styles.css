@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color: rgba(245, 181, 63, 0.979);
 }
 header{
     background: url(../resources/cow-heading.avif);
@@ -18,4 +23,25 @@ header h1{
     font-family: cursive;
     word-spacing: 40pxpx;
     letter-spacing: 40px;
+}
+
+.essay{
+    font-family: "Lato", sans-serif;
+    width: 80%;
+    margin: 50px auto 40px auto;
+    padding: 40px;
+}
+.essay h2{
+    text-align:center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    border: 3px dashed black;
+    border-right: 0;
+    border-left: 0;
+    padding: 10px;
+
+}
+.essay p{
+    text-align: justify;
 }
