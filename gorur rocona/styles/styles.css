@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(../resources/cow-heading.avif);
+    background-position:center;
+    
+    height: 80vh;
+    
+}
+header h1{
+    color: rgba(255, 140, 0, 0.938);
+    font-size: 200px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 80px;
+    font-family: cursive;
+    word-spacing: 40pxpx;
+    letter-spacing: 40px;
+}
